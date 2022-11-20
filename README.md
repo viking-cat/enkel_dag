@@ -1,17 +1,46 @@
 # Enkel Dag (enkeldag)
 
-To get started:
+# För Utvecklare
 
-  cd enkelDag
-  quasar dev # or: yarn quasar dev # or: npx quasar dev
+Se till att du har Node.js installerat. 
+
+Version 14.19 eller bättre är förväntat.
+
+TODO: (Installera Node.js Yarn om du inte har det)
+
+```bash
+# gå till projektets rot mapp
+$ cd enkel_dag
+
+# Installera och konfigurera alla paket
+$ yarn
+
+# Starta VS Code
+$ code .
+
+# Rendera sidan
+$ yarn quasar dev
+```
+# Anteckningar
+* Quasar Extensions
+  * [Intro](https://quasar.dev/app-extensions/introduction)
+  * [Officiella](https://quasar.dev/app-extensions/discover)
+
+## Kalender Extension
+
+```bash
+# Installerade extension
+yarn quasar ext add @quasar/qcalendar
+```
+
+* [QCalendar](https://qcalendar.netlify.app/) (Hemsida)
+  * [Dokumentation](https://qcalendar.netlify.app/all-about-qcalendar/what-is-qcalendar)
+  * [Getting Started](https://qcalendar.netlify.app/developing/getting-started)
+* [Quasar UI Calendar](https://github.com/quasarframework/quasar-ui-qcalendar) (Github)
+
+# Gammal Readme
 
 Documentation can be found at: https://v2.quasar.dev
-
-Quasar is relying on donations to evolve. We'd be very grateful if you can
-read our manifest on "Why donations are important": https://v2.quasar.dev/why-donate
-Donation campaign: https://donate.quasar.dev
-Any amount is very welcome.
-If invoices are required, please first contact Razvan Stoenescu.
 
 Please give us a star on Github if you appreciate our work:
   https://github.com/quasarframework/quasar
