@@ -5,7 +5,7 @@
     </div>
     <div class="q-ma-sm">
       <q-table :rows="rows" :columns="columns" row-key="name" />
-      Gaga
+      Gurgel
     </div>
   </q-page>
 </template>
